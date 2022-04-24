@@ -1,0 +1,14 @@
+{
+  "name": "5unit-testing",
+  "version": "1.0.0",
+  "description": "example5",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "author": "abel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
