@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "example5",
   "main": "pokemon.js",
+  "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles"
   },
   "author": "abel",
   "license": "ISC",
