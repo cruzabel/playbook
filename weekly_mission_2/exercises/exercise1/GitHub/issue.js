@@ -17,8 +17,3 @@ const issue = {
 console.log("Nombre del issue: " + issue.title);
 console.log(issue.getTitleAndAuthor());
 console.log(issue.getGeneralInfo());
-         
-
-   
-   
-   
